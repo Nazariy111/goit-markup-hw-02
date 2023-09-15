@@ -18,7 +18,7 @@ body {
     letter-spacing: 0.03em;
 }
 
-.webheader-logo-studio {
+.webheader-logo .webheader-logo-studio {
     color: var(--NAVY-BLUE, #2E2F42);
 }
 
@@ -111,7 +111,7 @@ a {
     background-color: #F4F4FD;
 }
 
-.teal-list {
+.team-list {
     background-color: #FFFFFF;
 }
 
