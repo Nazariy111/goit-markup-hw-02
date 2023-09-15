@@ -1,8 +1,13 @@
 body {
     font-family: 'Roboto', sans-serif;
+    color: #434455;
 }
 
-.header-logo {
+.webheader {
+    background-color: #FFFFFF;
+}
+
+.webheader-logo {
     color: var(--NAVY-BLUE, #2E2F42);
     font-family: Raleway;
     font-weight: 700;
@@ -12,9 +17,8 @@ body {
     letter-spacing: 0.03em;
 }
 
-.header-logo-web {
+.webheader-logo-web {
     color: var(--IRIS, #4D5AE5);
-       
 }
 
 .visually-hidden {
@@ -39,21 +43,30 @@ a {
     text-decoration: none;
 }
 
-.header-menu {
+.webheader-menu-item {
     color: var(--NAVY-BLUE, #2E2F42);
-    ont-size: 16px;
+    font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
-.header-contact {
+.webheader-menu-item:active {
+    color: #404BBF;
+}
+
+.webheader-contact-item {
     color: var(--SLATE, #434455);
     font-size: 16px;
     font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
+.webheader-contact-item:active {
+    color: var(--OCEAN, #404BBF);
+}
+
 
 .banner-title {color: var(--WHITE, #FFF);
     text-align: center;
