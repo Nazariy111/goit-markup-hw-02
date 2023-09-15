@@ -10,7 +10,6 @@ body {
 .webheader-logo {
     color: var(--NAVY-BLUE, #2E2F42);
     font-family: Raleway;
-    font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     text-transform: uppercase;
@@ -37,9 +36,10 @@ a {
     letter-spacing: 0.02em;
 }
 
-.webheader-menu-link:active {
+.webheader-menu-link:active,
+.webheader-menu-link:hover,
+.webheader-menu-link:focus {
     color: var(--OCEAN, #404BBF);
-    text-decoration: underline;
 }
 
 .webheader-contact-link {
@@ -50,7 +50,9 @@ a {
     letter-spacing: 0.02em;
 }
 
-.webheader-contact-link:active {
+.webheader-contact-link:active,
+.webheader-contact-link:hover,
+.webheader-contact-link:focus {
     color: var(--OCEAN, #404BBF);
 }
 
@@ -128,7 +130,6 @@ a {
     color: var(--CLOUD, #F4F4FD);
     font-family: Raleway;
     font-size: 18px;
-    font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
