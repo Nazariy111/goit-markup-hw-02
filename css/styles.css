@@ -1,6 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
+    background-color: #FFFFFF;
 }
 
 .webheader {
@@ -8,16 +9,17 @@ body {
 }
 
 .webheader-logo {
-    color: var(--NAVY-BLUE, #2E2F42);
-    font-family: Raleway;
+    color: var(--IRIS, #4D5AE5);
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
+    font-weight: 700
     line-height: 1.17;
     text-transform: uppercase;
     letter-spacing: 0.03em;
 }
 
-.webheader-logo-web {
-    color: var(--IRIS, #4D5AE5);
+.webheader-logo span {
+    color: var(--NAVY-BLUE, #2E2F42);
 }
 
 ul {
@@ -42,10 +44,13 @@ a {
     color: var(--OCEAN, #404BBF);
 }
 
+.webheader-contact {
+    font-style: normal;
+}
+
 .webheader-contact-link {
     color: var(--SLATE, #434455);
     font-size: 16px;
-    font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
@@ -54,20 +59,6 @@ a {
 .webheader-contact-link:hover,
 .webheader-contact-link:focus {
     color: var(--OCEAN, #404BBF);
-}
-
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
 }
 
 .banner,
@@ -93,7 +84,8 @@ a {
     cursor: pointer;
 }
 
-.banner-btn:hover {
+.banner-btn:hover,
+.banner-btn:focus {
     background: var(--OCEAN, #404BBF);
 }
 
@@ -115,6 +107,10 @@ a {
     letter-spacing: 0.02em;
 }
 
+.team {
+    background-color: #F4F4FD;
+}
+
 .team-title,
 .portfolio-title {
     color: var(--NAVY-BLUE, #2E2F42);
@@ -127,16 +123,17 @@ a {
 }
 
 .webfooter-logo {
-    color: var(--CLOUD, #F4F4FD);
-    font-family: Raleway;
+    color: var(--IRIS, #4D5AE5);
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
+    font-weight: 700
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
-.webfooter-logo-web {
-    color: var(--IRIS, #4D5AE5);
+.webfooter-logo span {
+    color: var(--CLOUD, #F4F4FD);
 }
 
 .webfooter-text {
